@@ -1,0 +1,10 @@
+md /Dir1
+mf /Dir1/file3
+mf /Dir1/file2
+mf /Dir1/file1
+md /Dir2
+cp /Dir1 /Dir2
+cp /Dir1 /Dir1/Dir2
+rm /Dir1/file2
+mv /Dir1/Dir2/file1 /Dir1/Dir2/file5
+mv /Dir2 /dIR3
